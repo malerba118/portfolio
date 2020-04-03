@@ -1,0 +1,45 @@
+.header {
+  position: relative;
+  height: 50vw;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.headerLayerOne {
+  position: absolute;
+  top: 0;
+  width: 100%
+}
+
+.headerLayerTwo {
+  position: absolute;
+  top: 0;
+  width: 100%
+}
+
+.avatarFrame {
+  position: absolute;
+  top: 5vw;
+  left: 5vw;
+  height: 30vw;
+  width: 30vw;
+  border-radius: 15vw;
+  overflow: hidden;
+}
+
+.avatarParallax {
+  height: 100%;
+  width: 100%;
+}
+
+.avatar {
+  position: relative;
+  height: 105%;
+  top: -2%;
+  left: -18%;
+}
+
+.content {
+  padding: 48px;
+}
